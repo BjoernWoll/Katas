@@ -1,2 +1,11 @@
 Es muss noch der Fall eines leeren Arrays abgebildet werden
 also Input [[]] Ausgabe []
+
+
+Die Aufgabe ist in https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1 beschrieben.
+
+Man muss ein 2 - Dimensionales Array das in der Form
+  1 2 3
+  4 5 6
+  7 8 9
+in der Reihenfolge 1 2 3 6 9 8 7 4 5 durchlaufen.
