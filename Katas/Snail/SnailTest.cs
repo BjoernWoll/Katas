@@ -6,7 +6,7 @@ namespace Katas.Snail
 {
     public class SnailTest
     {
-        [Test]
+     /*   [Test]
         public void SnailTest1()
         {
             int[][] array =
@@ -29,6 +29,6 @@ namespace Katas.Snail
             var text = $"{Int2dToString(array)}\nshould be sorted to\n[{string.Join(",", result)}]\n";
             Console.WriteLine(text);
             Assert.AreEqual(result, SnailSolution.Snail(array));
-        }
+        }*/
     }
 }

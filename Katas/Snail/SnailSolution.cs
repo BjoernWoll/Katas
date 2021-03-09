@@ -6,13 +6,8 @@ public class SnailSolution
     {
         List<int> ret = new List<int>();
         int len = array.Length - 1;
-        int max = len * len;
 
-        if (array == null)
-        {
-            ret.Add(new int());
-            return ret.ToArray();
-        }
+        if (array[0].Length == 0) return new int[] { };
 
         if (len == 0)
         {
